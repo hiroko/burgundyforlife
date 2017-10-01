@@ -1,4 +1,9 @@
 /* MAIN STUFF */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Raleway', Helvetica, sans-serif;
   font-size: 15px;
@@ -21,6 +26,15 @@ a:hover {
 p {
   padding: 10px;
   margin: 0px;
+  font-size: 16px;
+}
+
+p strong {
+  font-size: 18px;
+}
+
+p em {
+  font-size: 17px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -36,6 +50,20 @@ h1 {
   text-align: center;
   position: relative;
   padding: 30px 10px 10px 10px;
+}
+
+h2 {
+  font-family: 'Raleway', Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+em {
+  color: #495057;
+}
+
+strong {
+  text-decoration: underline dotted #d41041;
 }
 
 .header {
@@ -59,12 +87,12 @@ h1 {
   width: 100%;
 }
 
-.content a, a:visited {
+.content a, .content a:visited {
   color: #000000;
 }
 
 .content a:hover {
-  color: #C0C0C0;
+  color: #e9ecef;
 }
 
 
@@ -86,6 +114,18 @@ h1 {
   background-color: hsla(0,0%,100%,0.50);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
+}
+
+#about {
+  display: inline-block;
+  margin: 0px;
+  background: #F0F0F0;
+  color: #000000;
+  padding: 20px 0px;
+  position: relative;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
 }
 
 #Section1 {
@@ -122,4 +162,14 @@ h1 {
   position: relative;
   vertical-align: top;
   width: 100%;
+}
+
+
+#circle {
+  padding: 0px;
+  margin: 0px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 10px;
+  border-radius: 100px;
 }
