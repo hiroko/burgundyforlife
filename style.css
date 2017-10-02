@@ -62,10 +62,6 @@ em {
   color: #495057;
 }
 
-strong {
-  text-decoration: underline dotted #d41041;
-}
-
 .header {
   font-family: 'Raleway', Helvetica, sans-serif;
   font-size: 25px;
