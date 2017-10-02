@@ -101,7 +101,7 @@ strong {
   display: inline-block;
   margin: 0px;
   background: #FFFFFF;
-  background-image: url("img/001.png");
+  background-image: url("img/001.jpg");
   background-size: cover;
   background-position: right center;
   color: #000000;
@@ -123,7 +123,7 @@ strong {
   color: #000000;
   padding: 20px 0px;
   position: relative;
-  text-align: right;
+  text-align: center;
   vertical-align: top;
   width: 100%;
 }
@@ -164,6 +164,21 @@ strong {
   width: 100%;
 }
 
+#footer {
+  display: inline-block;
+  margin: 0px;
+  background: #F0F0F0;
+  color: #000000;
+  padding: 5px 0px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+
+#footer p {
+  font-size: 13px;
+}
 
 #circle {
   padding: 0px;
