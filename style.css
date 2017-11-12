@@ -24,9 +24,21 @@ a:hover {
 
 /* TEXT */
 p {
-  padding: 10px;
+  padding: 5px;
   margin: 0px;
   font-size: 16px;
+}
+
+#about p {
+  font-size: 18px;
+}
+
+#about p strong {
+  font-size: 20px;
+}
+
+#about p em {
+  font-size: 19px;
 }
 
 p strong {
